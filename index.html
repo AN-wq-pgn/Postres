@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portal de Empleo </title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Portal de Empleo - Energia Inteligente</h1>
+        <nav>
+            <a href="empresa.html">La Empresa</a> |
+            <a href="vacantes.html">Vacantes</a> |
+            <a href="contacto.html">Contacto</a>
+        </nav>
+    </header>
+
+    <section>
+        <h2>Envía tu Solicitud</h2>
+        <p>Completa el formulario para enviar tu solicitud de empleo. ¡Nos encantará que te unas a nuestro equipo!</p>
+
+        <form>
+            <label>Nombre Completo:</label><br>
+            <input type="text" name="nombre" required><br><br>
+
+            <label>Correo Electrónico:</label><br>
+            <input type="email" name="correo" required><br><br>
+
+            <label>Adjuntar CV:</label><br>
+            <input type="file" name="cv" accept=".pdf,.doc,.docx"><br><br>
+
+            <label>Carta de Motivación:</label><br>
+            <textarea name="motivo" rows="4"></textarea><br><br>
+
+            <label>Fecha y Hora de Entrevista:</label><br>
+            <input type="datetime-local" name="fecha"><br><br>
+
+            <button type="submit">Enviar Solicitud</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>© 2025 Portal de Empleo Energia Inteligente.. Todos los derechos reservados.</p>
+    </footer>
+</body>
+</html>
